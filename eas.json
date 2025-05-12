@@ -11,6 +11,9 @@
     "qa": {
       "distribution": "internal"
     },
+    "stage": {
+      "distribution": "internal"
+    },
     "production": {
       "autoIncrement": true
     }

@@ -1,0 +1,13 @@
+name: Android qa build
+
+on:
+  push:
+    branches: ['qa']
+
+jobs:
+  build_android:
+    name: Build Android
+    type: build
+    params:
+      platform: android
+      profile: qa

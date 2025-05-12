@@ -1,0 +1,13 @@
+name: Android stage build
+
+on:
+  push:
+    branches: ['stage']
+
+jobs:
+  build_android:
+    name: Build Android
+    type: build
+    params:
+      platform: android
+      profile: stage
