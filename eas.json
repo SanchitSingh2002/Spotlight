@@ -4,7 +4,7 @@
     "appVersionSource": "remote"
   },
   "build": {
-    "development": {
+    "develop": {
       "developmentClient": true,
       "distribution": "internal"
     },
@@ -14,7 +14,7 @@
     "stage": {
       "distribution": "internal"
     },
-    "production": {
+    "prod": {
       "autoIncrement": true
     }
   },
