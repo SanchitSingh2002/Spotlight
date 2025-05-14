@@ -1,15 +1,15 @@
-name: Create development builds
+name: Create qa builds
 
 jobs:
-  android_development_build:
+  android_qa_build:
     name: Build Android
     type: build
     params:
       platform: android
-      profile: development
-  ios_device_development_build:
+      profile: qa
+  ios_device_qa_build:
     name: Build iOS device
     type: build
     params:
       platform: ios
-      profile: development
+      profile: qa
