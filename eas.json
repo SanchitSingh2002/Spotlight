@@ -14,7 +14,7 @@
     "stage": {
       "distribution": "internal"
     },
-    "production": {
+    "prod": {
       "autoIncrement": true
     }
   },
