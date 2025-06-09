@@ -6,9 +6,8 @@ import { useCallback, useEffect } from "react";
 import * as NavigationBar from "expo-navigation-bar";
 import { Platform } from "react-native";
 import { StatusBar } from "expo-status-bar";
-import { ClerkProvider, useAuth, useUser } from "@clerk/clerk-expo";
+import { ClerkProvider, useAuth} from "@clerk/clerk-expo";
 import { ConvexProviderWithClerk } from "convex/react-clerk";
-import { ConvexReactClient } from "convex/react";
 import { convex, EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY } from "@/constants/secrets";
 
 SplashScreen.preventAutoHideAsync();
