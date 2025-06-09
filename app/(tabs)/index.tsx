@@ -7,7 +7,7 @@ import {useQuery} from "convex/react";
 import {api} from "@/convex/_generated/api";
 import Loader from "@/app/components/loader";
 import Post from "@/app/components/post";
-import {StoriesSection} from "@/app/components/stories";
+import StoriesSection from "@/app/components/stories";
 import {useState} from "react";
 
 export default function Index() {

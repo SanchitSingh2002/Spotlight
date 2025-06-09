@@ -3,7 +3,7 @@ import {STORIES} from "@/constants/mock-data";
 import Story from "@/app/components/story";
 import { ScrollView } from "react-native";
 
-export const StoriesSection = () => {
+const StoriesSection = () => {
     return (
         <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.storiesContainer}>
             {
@@ -14,3 +14,5 @@ export const StoriesSection = () => {
         </ScrollView>
     );
 }
+
+export default StoriesSection;
